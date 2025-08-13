@@ -12,7 +12,8 @@ cloudinary.config({
 
 export const uploadUserImage = async (req: Request, res: Response) => {
   try {
-    const { userId, imageBase64 } = req.body;
+    const {imageBase64} = req.body;
+    const {clerkId} = req.params;
 
     if (!imageBase64) {
       return res.status(400).json({ error: 'Imagem não enviada' });
@@ -20,12 +21,12 @@ export const uploadUserImage = async (req: Request, res: Response) => {
 
     // Upload direto do Base64
     const result = await cloudinary.uploader.upload(imageBase64, {
-      folder: `users/${userId}`,
+      folder: `users/${clerkId}`,
     });
 
     // Atualiza no Mongo
     const user = await User.findByIdAndUpdate(
-      userId,
+      clerkId,
       {
         $push: {
           images: {

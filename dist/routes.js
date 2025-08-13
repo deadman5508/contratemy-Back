@@ -10,5 +10,5 @@ router.post('/users/sync', syncUserWithClerk);
 router.patch('/users/update', authMiddleware, updateUser);
 router.get('/users/user/:clerkId', authMiddleware, searchUser);
 router.get('/options', getOptions);
-router.post('/users/:userId/image', authMiddleware, uploadUserImage);
+router.post('/users/:clerkId/image', authMiddleware, uploadUserImage);
 //# sourceMappingURL=routes.js.map
