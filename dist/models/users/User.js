@@ -1,4 +1,9 @@
 import mongoose from 'mongoose';
+const imageSchema = new mongoose.Schema({
+    url: String,
+    publicId: String,
+    createdAt: Date,
+});
 const UserSchema = new mongoose.Schema({
     clerkId: { type: String, required: true, unique: true }, // ID do Clerk
     name: { type: String },
@@ -23,6 +28,7 @@ const UserSchema = new mongoose.Schema({
     hours: [{ type: String }],
     payments: [{ type: String }],
     reviews: [{ type: Number }],
+    images: [[imageSchema]]
 }, {
     timestamps: true
 });

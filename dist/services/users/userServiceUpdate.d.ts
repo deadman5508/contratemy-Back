@@ -14,6 +14,28 @@ export declare function updateUserData(clerkId: string, updateFields: Record<str
     hours: string[];
     payments: string[];
     reviews: number[];
+    images: import("mongoose").Types.DocumentArray<{
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }, import("mongoose").Types.Subdocument<import("bson").ObjectId, any, {
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }> & {
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }>;
     name?: string | null;
     description?: string | null;
     phone?: string | null;
@@ -37,6 +59,28 @@ export declare function updateUserData(clerkId: string, updateFields: Record<str
     hours: string[];
     payments: string[];
     reviews: number[];
+    images: import("mongoose").Types.DocumentArray<{
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }, import("mongoose").Types.Subdocument<import("bson").ObjectId, any, {
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }> & {
+        1: unknown;
+        0?: {
+            url?: string | null;
+            publicId?: string | null;
+            createdAt?: NativeDate | null;
+        } | null;
+    }>;
     name?: string | null;
     description?: string | null;
     phone?: string | null;
