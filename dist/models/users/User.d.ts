@@ -16,26 +16,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -59,26 +50,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -104,26 +86,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -153,26 +126,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -196,26 +160,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -241,26 +196,17 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;

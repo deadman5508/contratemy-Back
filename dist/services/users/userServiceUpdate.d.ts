@@ -15,26 +15,17 @@ export declare function updateUserData(clerkId: string, updateFields: Record<str
     payments: string[];
     reviews: number[];
     images: import("mongoose").Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, import("mongoose").Types.Subdocument<import("bson").ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;
@@ -60,26 +51,17 @@ export declare function updateUserData(clerkId: string, updateFields: Record<str
     payments: string[];
     reviews: number[];
     images: import("mongoose").Types.DocumentArray<{
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }, import("mongoose").Types.Subdocument<import("bson").ObjectId, any, {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }> & {
-        1: unknown;
-        0?: {
-            url?: string | null;
-            publicId?: string | null;
-            createdAt?: NativeDate | null;
-        } | null;
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
     }>;
     name?: string | null;
     description?: string | null;

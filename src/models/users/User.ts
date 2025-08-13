@@ -32,7 +32,7 @@ const UserSchema = new mongoose.Schema({
   hours:[{ type: String }],
   payments:[{type:String}],
   reviews: [{ type: Number }],
-  images: [[imageSchema]]
+  images: [imageSchema]
 }, {
   timestamps: true 
 });
