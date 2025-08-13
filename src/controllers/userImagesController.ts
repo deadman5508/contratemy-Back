@@ -25,8 +25,8 @@ export const uploadUserImage = async (req: Request, res: Response) => {
     });
 
     // Atualiza no Mongo
-    const user = await User.findByIdAndUpdate(
-      clerkId,
+    const user = await User.findOneAndUpdate(
+      {clerkId},
       {
         $push: {
           images: {

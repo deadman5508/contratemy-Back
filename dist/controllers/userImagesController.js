@@ -19,7 +19,7 @@ export const uploadUserImage = async (req, res) => {
             folder: `users/${clerkId}`,
         });
         // Atualiza no Mongo
-        const user = await User.findByIdAndUpdate(clerkId, {
+        const user = await User.findOneAndUpdate({ clerkId }, {
             $push: {
                 images: {
                     url: result.secure_url,
