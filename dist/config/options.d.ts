@@ -46,6 +46,7 @@ export declare const options: {
         eletrotecnico: string[];
         "tecnico em eletronicos": string[];
         "tecnico em ar condicionado": string[];
+        Mecânico: string[];
         "produtor de conteudo digital": string[];
         fotografo: string[];
         ilustrador: string[];

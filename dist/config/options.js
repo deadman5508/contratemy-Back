@@ -470,6 +470,18 @@ export const options = {
             "reparo de compressores",
             "troca de filtros"
         ],
+        "Mecânico": [
+            "Manutenção preventiva de veículos",
+            "Reparo de motores",
+            "Troca de peças e componentes",
+            "Diagnóstico de falhas mecânicas",
+            "Alinhamento e balanceamento",
+            "Sistema de freios e suspensão",
+            "Troca de óleo e fluidos",
+            "Inspeção de sistemas elétricos automotivos",
+            "Leitura de manuais técnicos",
+            "Uso de ferramentas manuais e equipamentos de diagnóstico"
+        ],
         "produtor de conteudo digital": [
             "criacao de roteiros",
             "producao de posts para redes sociais",
