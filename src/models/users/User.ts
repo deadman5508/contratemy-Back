@@ -7,6 +7,12 @@ const imageSchema = new mongoose.Schema({
   createdAt: Date,
 });
 
+const photoSchema = new mongoose.Schema({
+  url: String,
+  publicId: String,
+  createdAt: Date,
+});
+
 const UserSchema = new mongoose.Schema({
   clerkId: { type: String, required: true, unique: true }, // ID do Clerk
   name: { type: String },
@@ -32,7 +38,8 @@ const UserSchema = new mongoose.Schema({
   hours:[{ type: String }],
   payments:[{type:String}],
   reviews: [{ type: Number }],
-  images: [imageSchema]
+  images: [imageSchema],
+  photoProfile:[photoSchema]
 }, {
   timestamps: true 
 });

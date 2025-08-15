@@ -5,10 +5,14 @@ import { searchUser } from './controllers/users/userControllerSearch.js';
 import { getOptions } from './controllers/optionsController.js';
 import { authMiddleware } from './middlewares/authMiddleware.js';
 import { uploadUserImage } from './controllers/userImagesController.js';
+import { addController } from './controllers/adds/addController.js';
+import { searchController } from './controllers/adds/searchControlle.js';
 export const router = Router();
 router.post('/users/sync', syncUserWithClerk);
 router.patch('/users/update', authMiddleware, updateUser);
 router.get('/users/user/:clerkId', authMiddleware, searchUser);
 router.get('/options', getOptions);
 router.post('/users/:clerkId/image', authMiddleware, uploadUserImage);
+router.get("/adds", addController);
+router.get("/search", searchController);
 //# sourceMappingURL=routes.js.map

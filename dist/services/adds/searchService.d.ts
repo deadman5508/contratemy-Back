@@ -1,4 +1,4 @@
-export declare function searchUserData(clerkId: string): Promise<(import("mongoose").Document<unknown, {}, {
+export declare const searchService: (city?: string, profession?: string) => Promise<(import("mongoose").Document<unknown, {}, {
     createdAt: NativeDate;
     updatedAt: NativeDate;
 } & {
@@ -98,5 +98,5 @@ export declare function searchUserData(clerkId: string): Promise<(import("mongoo
     _id: import("mongoose").Types.ObjectId;
 } & {
     __v: number;
-}) | null>;
-//# sourceMappingURL=userServirceSearch.d.ts.map
+})[]>;
+//# sourceMappingURL=searchService.d.ts.map

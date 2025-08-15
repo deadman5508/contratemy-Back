@@ -28,6 +28,19 @@ export declare const User: mongoose.Model<{
         publicId?: string | null;
         createdAt?: NativeDate | null;
     }>;
+    photoProfile: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
     name?: string | null;
     description?: string | null;
     phone?: string | null;
@@ -50,6 +63,19 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
+    photoProfile: mongoose.Types.DocumentArray<{
         url?: string | null;
         publicId?: string | null;
         createdAt?: NativeDate | null;
@@ -86,6 +112,19 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
+    photoProfile: mongoose.Types.DocumentArray<{
         url?: string | null;
         publicId?: string | null;
         createdAt?: NativeDate | null;
@@ -138,6 +177,19 @@ export declare const User: mongoose.Model<{
         publicId?: string | null;
         createdAt?: NativeDate | null;
     }>;
+    photoProfile: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
     name?: string | null;
     description?: string | null;
     phone?: string | null;
@@ -160,6 +212,19 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
+    photoProfile: mongoose.Types.DocumentArray<{
         url?: string | null;
         publicId?: string | null;
         createdAt?: NativeDate | null;
@@ -196,6 +261,19 @@ export declare const User: mongoose.Model<{
     payments: string[];
     reviews: number[];
     images: mongoose.Types.DocumentArray<{
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }, mongoose.Types.Subdocument<mongoose.mongo.BSON.ObjectId, any, {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }> & {
+        url?: string | null;
+        publicId?: string | null;
+        createdAt?: NativeDate | null;
+    }>;
+    photoProfile: mongoose.Types.DocumentArray<{
         url?: string | null;
         publicId?: string | null;
         createdAt?: NativeDate | null;
