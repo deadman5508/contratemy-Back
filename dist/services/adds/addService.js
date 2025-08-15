@@ -8,7 +8,7 @@ export const addService = async (city) => {
     const users = await User.find(query)
         .sort({ createdAt: -1 })
         .limit(50)
-        .select('clerkId name surname description profession skills reviews city');
+        .select('clerkId name surname description profession skills reviews city images');
     return users;
 };
 //# sourceMappingURL=addService.js.map
