@@ -12,7 +12,7 @@ export const searchService = async (city, profession) => {
     const users = await User.find(query)
         .sort({ createdAt: -1 })
         .limit(50)
-        .select("clerkId name surname description profession skills availability reviews city");
+        .select("clerkId name surname description profession skills availability reviews city images");
     return users;
 };
 //# sourceMappingURL=searchService.js.map
