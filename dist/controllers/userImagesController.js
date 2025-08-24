@@ -1,4 +1,3 @@
-// src/controllers/userController.ts
 import { v2 as cloudinary } from 'cloudinary';
 import { User } from '../models/users/User.js';
 // Configuração do Cloudinary

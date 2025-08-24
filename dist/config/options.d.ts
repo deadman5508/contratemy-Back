@@ -6,6 +6,7 @@ export declare const options: {
     }[];
     skills: {
         eletricista: string[];
+        "tecnico em edificacoes": string[];
         encanador: string[];
         pedreiro: string[];
         pintor: string[];
