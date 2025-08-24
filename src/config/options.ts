@@ -18,7 +18,7 @@ export const options = {
       allCategory: [
         "eletricista", "encanador", "pedreiro", "pintor", "marceneiro", "jardineiro",
         "montador de moveis", "instalador de gas",
-        "engenheiro civil",
+        "engenheiro civil","tecnico em edificacoes",
         "engenheiro eletrico", "engenheiro mecanico",
         "projetista de obras", "serralheiro", "tapeceiro",
         "carpinteiro", "arquiteto", "designer de interiores",
@@ -148,6 +148,13 @@ export const options = {
       "instalacao de iluminacao",
       "automacao residencial",
       "quadros eletricos"
+    ],
+    "tecnico em edificacoes":[
+      "gestao de projetos",
+      "fiscalizacao de obras",
+      "reformas e ampliacoes",
+      "laudos e vistorias",
+      "supervisao de obras",
     ],
     "encanador": [
       "instalacao hidraulica",
