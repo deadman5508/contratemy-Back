@@ -8,6 +8,7 @@ import { uploadUserImage } from './controllers/userImagesController.js';
 import { addController } from './controllers/adds/addController.js';
 import { searchController } from './controllers/adds/searchControlle.js';
 import { removeUserImage } from './controllers/deleteImagesController.js';
+import { deleteUserController } from './controllers/users/userControllerDelete.js';
 
 export const router = Router()
 
@@ -21,3 +22,5 @@ router.delete("/users/:clerkId/images",authMiddleware, removeUserImage);
 
 router.get("/adds",addController);
 router.get("/search",searchController);
+
+router.delete("/users/delete/:clerkId",authMiddleware,deleteUserController);
