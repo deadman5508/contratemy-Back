@@ -1,7 +1,7 @@
 import { User } from "../../models/users/User.js";
 
 export const searchService = async (city?: string, profession?: string) => {
-  const query: Record<string, any> = { workerStatus: "worker" };
+  const query: Record<string, any> = { workerStatus: "worker", profession: { $exists: true, $nin: [null, ""] } };
 
   // Filtro de cidade (MongoDB já verifica arrays automaticamente)
   if (city) {
